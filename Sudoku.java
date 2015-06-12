@@ -26,13 +26,13 @@ public class Sudoku extends JFrame{
 		bPanel.setLayout(null);
 		
 		//Button to choose a easy or mid or difficult question 
-		easyButton.setBounds(20, 151, 150, 40);
+		easyButton.setBounds(10, 151, 150, 40);
 		bPanel.add(easyButton);
-		midButton.setBounds(200, 151, 150, 40);
+		midButton.setBounds(170, 151, 150, 40);
 		bPanel.add(midButton);
-		difficultButton.setBounds(380, 151, 150, 40);
+		difficultButton.setBounds(330, 151, 150, 40);
 		bPanel.add(difficultButton);
-		evilButton.setBounds(560, 151, 150, 40);
+		evilButton.setBounds(490, 151, 150, 40);
 		bPanel.add(evilButton);
 		
 		//Button to clear the things that user enters 
